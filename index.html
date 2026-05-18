@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>AI PDF Summarizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+   <h1>
+  <i class="fa-solid fa-robot"></i>
+  AI PDF Summarizer
+</h1>
+
+    <textarea id="inputText" placeholder="Paste your notes here..."></textarea>
+
+    <button onclick="generateSummary()">
+      <i class="fa-solid fa-wand-magic-sparkles"></i>
+      Generate Summary
+    </button>
+
+    <div class="output-box">
+      <h2>Summary</h2>
+      <p id="summary"></p>
+    </div>
+
+    <div class="output-box">
+      <h2>Quiz Questions</h2>
+      <p id="quiz"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
